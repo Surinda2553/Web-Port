@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px auto;
+    width: 500px;
+    height: 658px;
+    background: #ECB365;
+}
+/*กรอบ*/
+.RegisterForm {
+    border-radius: 10px;
+    border : solid #ECB365;
+    width: 900px;
+    height: 850px;
+    margin-top: -160px;
+    margin-left: -100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.RegisterForm h1 {
+    font-size: 40px;
+    font-family: 'kanit',sans-serif;
+    background-color: #ECB365;
+    color:#ECB365;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: -20px;
+}
+
+.RegisterForm .name {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.name input {
+    font-family: 'kanit',sans-serif;
+    padding-left: 50px;
+    outline: none;
+    font-size: 10px;
+    height: 50px;
+    width: 250px;
+    margin-left: 30px;
+    border: none;
+    background-color: #064663(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #064663(180, 177, 177);
+}
+
+.name h2 {
+    font-family: 'kanit',sans-serif;
+    color: #064663;
+}
+
+
+.gender {
+    color: #064663;
+    display: flex;
+    text-align: center;
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+}
+
+.gender .Gender {
+    margin-top: 30px;
+    transform: scale(2);
+    margin-left: 30px;
+}
+
+.gender i {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.gender i:nth-child(3) {
+    color: rgb(27, 167, 233);
+}
+
+.gender i:nth-child(5) {
+    color: rgb(241, 134, 152);
+}
+
+.birthday {
+    color: #064663;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: 'kanit',sans-serif;
+}
+
+.birthday #birthday {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'kanit',sans-serif;
+}
+
+.email {
+    color: #064663;
+    padding-left: 10px;
+    font-family: 'kanit',sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.email input {
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    margin-left: 50px;
+    border: none;
+    background-color: #064663(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #064663(112, 112, 112);
+}
+
+.email input:hover {
+    border: 3px solid #064663;
+    transition: 0.7s;
+}
+
+.username {
+    color: #B3DBD8;
+    display: flex;
+    align-items: center;
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+}
+
+.username input {
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+    background-color: #064663(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #064663(112, 112, 112);
+}
+
+.password1 {
+    color: #064663;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+}
+
+.password1 input {
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+    background-color: #064663(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #064663(112, 112, 112);
+}
+
+.password2 {
+    color: #064663;
+    display: flex;
+    align-items: center;
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+}
+
+.password2 input {
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(112, 112, 112);
+}
+/*ปุ่มล่างสุด*/
+#Regis {
+    margin-left: 280px;
+    left: 500px;
+    bottom: 50px;
+    background: #064663;
+    color: #064663;
+    font-family: 'kanit',sans-serif;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+#Regis:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    background: rgb(11, 84, 133);
+}
+
+#Reset {
+    left: 1020px;
+    bottom: 100px;
+    background: #064663;
+    color: white;
+    font-family: 'kanit',sans-serif;
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    font-size: 20px;
+    /*outline: none;*/
+}
+
+#Reset:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    background: rgb(11, 84, 133);
+}
+
+/*ปุ่มกดกลับ*/
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #064663;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #064663;
+    color: #064663;
+}
+
+
+.back-button:hover {
+    transition: 0.6s;
+    background-color: rgb(11, 84, 133);
+    color: #064663;
+    cursor: pointer;
+}
